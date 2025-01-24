@@ -5,12 +5,11 @@
 int main(void) {
 
   char text[2555] = "";  
-  char *textp = text;
-      
+        
   //Prints a request for user input & store its value
   
   printf("Please input text to check:\n");
-  scanf("%s", textp);
+  fgets ("%s", text); 
 
   printf("\n\n%zu", strlen(text));
 
