@@ -9,7 +9,7 @@ int main(void) {
   //Prints a request for user input & store its value
   
   printf("Please input text to check:\n");
-  fgets ("%s", text); 
+  fgets (text, 2555, stdin); 
 
   printf("\n\n%zu", strlen(text));
 
